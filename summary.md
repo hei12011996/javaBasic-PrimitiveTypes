@@ -1,4 +1,4 @@
-* BooleanOperatorsTest
+## BooleanOperatorsTest
 - should_perform_logical_boolean_operations()
 1. The knowledge point of this unit test is to know the result of each boolean logical operators including &&, ||, &, |, ==, !=. Offical document: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/operators.html
 2. The original expected result is empty at first.
@@ -23,14 +23,14 @@
 3. It is executing a bitwise not operation for each bit of the integer, which invert the bit digit. So if we meet 'f', we change it to '0', if we meet '0', change it to 'f'. So for integer 0x0000_ffff, the result should be 0xffff_0000.
 4. No
 
-* CharTypeTest
+## CharTypeTest
 - should_describe_escaped_chars()
 1. The knowledge point of this unit test is to know the use of escape characters. Offical document: https://docs.oracle.com/javase/tutorial/java/data/characters.html
 2. The original expected results are all space chacters at first.
 3. In order to represent some special characters which have speical meaning, a backslash is needed be put in front of the character that needed to be escape(e.g " -> \"). For backspace, tab, linefeed, and carriageReturn, there are also escape sequence to represent such characters, for instance \b for backspace, \t for tab, \n for linefeed, \r for carriageReturn.
 4. No
 
-* FloatingTypeTest
+## FloatingTypeTest
 - should_not_get_rounded_result_if_convert_floating_number_to_integer()
 1. The knowledge point of this unit test is to know the result of down casting. Offical document: https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
 2. The original expected result is Integer.MAX_VALUE, which is even larger than the floating number 2.75.
@@ -55,7 +55,7 @@
 3. Call Math.round() in order to round a double to long.
 4. No
 
-* IntegerTypeTest
+## IntegerTypeTest
 - should_get_range_of_primitive_int_type()
 1. The knowledge point of this unit test is to know that maximum value and minimum value of an int, which a Java class Integer also store these values as constant. Offical document: https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html
 2. The original expected results are both filled 0 for maximum and minimum.
